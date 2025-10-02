@@ -1,3 +1,16 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "mysuru-palace",
+      "description": "An illuminated photo of the Mysuru Palace at night.",
+      "imageUrl": "https://images.unsplash.com/photo-1724382981275-f144e3a12cdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYWxhY2UlMjBpbmRpYXxlbnwwfHx8fDE3NTkzOTI4MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "palace india"
+    },
+    {
+      "id": "banni-mantap",
+      "description": "A vibrant cultural parade.",
+      "imageUrl": "https://images.unsplash.com/photo-1681272065649-6f411d35a630?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmZXN0aXZhbCUyMHBhcmFkZXxlbnwwfHx8fDE3NTkzNzIyODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "festival parade"
+    }
+  ]
 }
