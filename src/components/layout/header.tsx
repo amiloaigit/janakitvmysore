@@ -13,7 +13,7 @@ export function Header() {
           <span className="font-bold text-lg font-headline">{t('app.title')}</span>
         </div>
         <div className="flex items-center gap-4">
-          <p className="text-sm text-muted-foreground hidden md:block">
+          <p className="font-headline font-semibold hidden md:block">
             {t('header.marketingPartner')}
           </p>
           <LanguageSwitcher />
