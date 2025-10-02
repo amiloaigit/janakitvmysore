@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { TranslationProvider } from '@/context/translation-context';
 import { useTranslation } from '@/hooks/use-translation';
 import { events } from '@/lib/events';
@@ -9,6 +10,8 @@ import { EventCard } from '@/components/event-card';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { Card } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { MessageCircle } from 'lucide-react';
 
 function HomePageContent() {
   const { t, language } = useTranslation();
@@ -16,6 +19,7 @@ function HomePageContent() {
   const mainEvent = events.find(event => event.id === 'mysuru-palace');
   const otherEvents = events.filter(event => event.id !== 'mysuru-palace');
 
+  const whatsappUrl = `https://wa.me/918884440947?text=${encodeURIComponent(t('pr.whatsappMessage'))}`;
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -69,6 +73,11 @@ function HomePageContent() {
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto italic">
               {t('pr.subtitle')}
             </p>
+            <Button asChild size="lg">
+              <Link href={whatsappUrl} target="_blank">
+                <MessageCircle className="mr-2" /> {t('pr.contactUs')}
+              </Link>
+            </Button>
           </div>
         </section>
       </main>
