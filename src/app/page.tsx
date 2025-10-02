@@ -9,17 +9,13 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { EventCard } from '@/components/event-card';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
-import { Card } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { MessageCircle } from 'lucide-react';
+import { FloatingWhatsappButton } from '@/components/floating-whatsapp-button';
 
 function HomePageContent() {
   const { t, language } = useTranslation();
   const heroImage = PlaceHolderImages.find((img) => img.id === 'mysuru-palace');
   const mainEvent = events.find(event => event.id === 'mysuru-palace');
   const otherEvents = events.filter(event => event.id !== 'mysuru-palace');
-
-  const whatsappUrl = `https://wa.me/918884440947?text=${encodeURIComponent(t('pr.whatsappMessage'))}`;
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -64,7 +60,6 @@ function HomePageContent() {
           </div>
         )}
 
-
         <section className="bg-muted/50 py-12">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold font-headline mb-4">
@@ -73,14 +68,10 @@ function HomePageContent() {
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto italic">
               {t('pr.subtitle')}
             </p>
-            <Button asChild size="lg">
-              <Link href={whatsappUrl} target="_blank">
-                <MessageCircle className="mr-2" /> {t('pr.contactUs')}
-              </Link>
-            </Button>
           </div>
         </section>
       </main>
+      <FloatingWhatsappButton />
       <Footer />
     </div>
   );
