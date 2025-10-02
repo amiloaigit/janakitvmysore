@@ -12,7 +12,7 @@ export const translations = {
     // Event Details
     'event.lastUpdated': 'Last Updated:',
     // Footer
-    'footer.copyright': '© 2025 Dasara Festival. All Rights Reserved.',
+    'footer.copyright': '© 2025 amiloai.com. All Rights Reserved.',
   },
   kn: {
     // Header
@@ -27,7 +27,7 @@ export const translations = {
     // Event Details
     'event.lastUpdated': 'ಕೊನೆಯದಾಗಿ ನವೀಕರಿಸಿದ್ದು:',
     // Footer
-    'footer.copyright': '© ೨೦೨೫ ದಸರಾ ಹಬ್ಬ. ಎಲ್ಲ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.',
+    'footer.copyright': '© 2025 amiloai.com. ಎಲ್ಲ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.',
   },
 };
 
