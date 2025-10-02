@@ -12,7 +12,7 @@ export const translations = {
     'pr.title': 'Our Streaming Partner',
     'pr.subtitle': 'This event is proudly streamed and powered by amiloai.com',
     'pr.contactUs': 'Contact us to stream your event',
-    'pr.whatsappMessage': "hey ketan i want live stream my content online similar dasara darshan can you please help",
+    'pr.whatsappMessage': "Hello Ketan, I was impressed by the Dasara Darshan live stream. I'm interested in exploring live streaming options for my own content and would appreciate it if you could provide some information on your services.",
     // Event Status
     'event.status.live': 'Live',
     'event.status.offline': 'Offline',
@@ -34,7 +34,7 @@ export const translations = {
     'pr.title': 'ನಮ್ಮ ಸ್ಟ್ರೀಮಿಂಗ್ ಪಾಲುದಾರರು',
     'pr.subtitle': 'ಈ ಕಾರ್ಯಕ್ರಮವನ್ನು ಹೆಮ್ಮೆಯಿಂದ ಸ್ಟ್ರೀಮ್ ಮತ್ತು ನಡೆಸಿಕೊಡുന്നത് amiloai.com',
     'pr.contactUs': 'ನಿಮ್ಮ ಈವೆಂಟ್ ಅನ್ನು ಸ್ಟ್ರೀಮ್ ಮಾಡಲು ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ',
-    'pr.whatsappMessage': "ಹೇ ಕೇತನ್, ದಸರಾ ದರ್ಶನದಂತೆಯೇ ನನ್ನ ವಿಷಯವನ್ನು ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಲೈವ್ ಸ್ಟ್ರೀಮ್ ಮಾಡಲು ನಾನು ಬಯಸುತ್ತೇನೆ, ದಯವಿಟ್ಟು ಸಹಾಯ ಮಾಡಬಹುದೇ?",
+    'pr.whatsappMessage': "ನಮಸ್ಕಾರ ಕೇತನ್, ದಸರಾ ದರ್ಶನದ ನೇರ ಪ್ರಸಾರದಿಂದ ನಾನು ಬಹಳ ಪ್ರಭಾವಿತನಾಗಿದ್ದೇನೆ. ನನ್ನ ಸ್ವಂತ ವಿಷಯಕ್ಕಾಗಿ ಲೈವ್ ಸ್ಟ್ರೀಮಿಂಗ್ ಆಯ್ಕೆಗಳನ್ನು ಅನ್ವೇಷಿಸಲು ನಾನು ಆಸಕ್ತಿ ಹೊಂದಿದ್ದೇನೆ. ನಿಮ್ಮ ಸೇವೆಗಳ ಬಗ್ಗೆ ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಮಾಹಿತಿ ನೀಡಬಹುದೇ?",
     // Event Status
     'event.status.live': 'ಲೈವ್',
     'event.status.offline': 'ಆಫ್‌ಲೈನ್‌',
