@@ -1,3 +1,4 @@
+
 export const translations = {
   en: {
     // Header
@@ -5,7 +6,7 @@ export const translations = {
     // Hero
     'hero.title': 'Welcome to Dasara 2025',
     'hero.subtitle': 'Live Streaming of Cultural Programs and Rituals',
-    'hero.day': 'Dasara Cultural Programs - Day 6',
+    'hero.day': 'Dasara Cultural Programs',
     // PR Section
     'pr.title': 'Our Streaming Partner',
     'pr.subtitle': 'This event is proudly streamed and powered by amiloai.com',
@@ -24,7 +25,7 @@ export const translations = {
     // Hero
     'hero.title': 'ದಸರಾ ೨೦೨೫ಕ್ಕೆ ಸುಸ್ವಾಗತ',
     'hero.subtitle': 'ಸಾಂಸ್ಕೃತಿಕ ಕಾರ್ಯಕ್ರಮಗಳು ಮತ್ತು ಆಚರಣೆಗಳ ನೇರ ಪ್ರಸಾರ',
-    'hero.day': 'ದಸರಾ ಸಾಂಸ್ಕೃತಿಕ ಕಾರ್ಯಕ್ರಮಗಳು - ದಿನ ೬',
+    'hero.day': 'ದಸರಾ ಸಾಂಸ್ಕೃತಿಕ ಕಾರ್ಯಕ್ರಮಗಳು',
     // PR Section
     'pr.title': 'ನಮ್ಮ ಸ್ಟ್ರೀಮಿಂಗ್ ಪಾಲುದಾರರು',
     'pr.subtitle': 'ಈ ಕಾರ್ಯಕ್ರಮವನ್ನು ಹೆಮ್ಮೆಯಿಂದ ಸ್ಟ್ರೀಮ್ ಮತ್ತು ನಡೆಸಿಕೊಡുന്നത് amiloai.com',
