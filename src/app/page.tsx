@@ -9,13 +9,15 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { EventCard } from '@/components/event-card';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
-import { FloatingWhatsappButton } from '@/components/floating-whatsapp-button';
+import { Button } from '@/components/ui/button';
+import { WhatsappIcon } from '@/components/icons';
 
 function HomePageContent() {
   const { t, language } = useTranslation();
   const heroImage = PlaceHolderImages.find((img) => img.id === 'mysuru-palace');
   const mainEvent = events.find(event => event.id === 'mysuru-palace');
   const otherEvents = events.filter(event => event.id !== 'mysuru-palace');
+  const whatsappUrl = `https://wa.me/918884440947?text=${encodeURIComponent(t('pr.whatsappMessage'))}`;
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -68,10 +70,15 @@ function HomePageContent() {
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto italic">
               {t('pr.subtitle')}
             </p>
+            <Button asChild size="lg">
+              <Link href={whatsappUrl} target="_blank">
+                <WhatsappIcon className="h-5 w-5" />
+                {t('pr.contactUs')}
+              </Link>
+            </Button>
           </div>
         </section>
       </main>
-      <FloatingWhatsappButton />
       <Footer />
     </div>
   );
