@@ -70,7 +70,7 @@ function HomePageContent() {
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto italic">
               {t('pr.subtitle')}
             </p>
-            <Button asChild size="lg">
+            <Button asChild size="lg" className="bg-[#25D366] hover:bg-[#25D366]/90 text-white">
               <Link href={whatsappUrl} target="_blank">
                 <WhatsappIcon className="h-5 w-5" />
                 {t('pr.contactUs')}
