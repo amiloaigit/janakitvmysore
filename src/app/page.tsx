@@ -13,7 +13,6 @@ import { Card } from '@/components/ui/card';
 function HomePageContent() {
   const { t, language } = useTranslation();
   const heroImage = PlaceHolderImages.find((img) => img.id === 'mysuru-palace');
-  const partnerLogo = PlaceHolderImages.find((img) => img.id === 'amiloai-logo');
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -56,22 +55,9 @@ function HomePageContent() {
             <h2 className="text-3xl font-bold font-headline mb-4">
               {t('pr.title')}
             </h2>
-            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto italic">
               {t('pr.subtitle')}
             </p>
-            {partnerLogo && (
-              <div className="flex justify-center">
-                <div className="relative w-[200px] h-[100px]">
-                  <Image
-                    src={partnerLogo.imageUrl}
-                    alt={partnerLogo.description}
-                    fill
-                    className="object-contain"
-                    data-ai-hint={partnerLogo.imageHint}
-                  />
-                </div>
-              </div>
-            )}
           </div>
         </section>
       </main>
