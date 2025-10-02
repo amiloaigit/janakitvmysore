@@ -12,7 +12,8 @@ export const translations = {
     // Event Details
     'event.lastUpdated': 'Last Updated:',
     // Footer
-    'footer.copyright': '© 2025 amiloai.com. All Rights Reserved.',
+    'footer.partner': 'Streaming and Website by amiloai.com',
+    'footer.copyright': '© 2025 Janaki TV Mysore. All Rights Reserved.',
   },
   kn: {
     // Header
@@ -27,7 +28,8 @@ export const translations = {
     // Event Details
     'event.lastUpdated': 'ಕೊನೆಯದಾಗಿ ನವೀಕರಿಸಿದ್ದು:',
     // Footer
-    'footer.copyright': '© 2025 amiloai.com. ಎಲ್ಲ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.',
+    'footer.partner': 'ಅಮಿಲೋಯ್.ಕಾಂ ನಿಂದ ಸ್ಟ್ರೀಮಿಂಗ್ ಮತ್ತು ವೆಬ್‌ಸೈಟ್',
+    'footer.copyright': '© 2025 ಜಾನಕಿ ಟಿವಿ ಮೈಸೂರು. ಎಲ್ಲ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.',
   },
 };
 
