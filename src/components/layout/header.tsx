@@ -12,7 +12,12 @@ export function Header() {
           <ElephantIcon className="h-8 w-8 text-primary" />
           <span className="font-bold text-lg font-headline">{t('app.title')}</span>
         </div>
-        <LanguageSwitcher />
+        <div className="flex items-center gap-4">
+          <p className="text-sm text-muted-foreground hidden md:block">
+            {t('header.marketingPartner')}
+          </p>
+          <LanguageSwitcher />
+        </div>
       </div>
     </header>
   );

@@ -3,6 +3,7 @@ export const translations = {
   en: {
     // Header
     'app.title': 'Janaki TV Mysore | Dasara Darshan',
+    'header.marketingPartner': 'Marketing Partner: amiloai.com',
     // Hero
     'hero.title': 'Welcome to Dasara 2025',
     'hero.subtitle': 'Live Streaming of Cultural Programs and Rituals',
@@ -22,6 +23,7 @@ export const translations = {
   kn: {
     // Header
     'app.title': 'ಜಾನಕಿ ಟಿವಿ ಮೈಸೂರು | ದಸರಾ ದರ್ಶನ',
+    'header.marketingPartner': 'ಮಾರ್ಕೆಟಿಂಗ್ ಪಾಲುದಾರರು: amiloai.com',
     // Hero
     'hero.title': 'ದಸರಾ ೨೦೨೫ಕ್ಕೆ ಸುಸ್ವಾಗತ',
     'hero.subtitle': 'ಸಾಂಸ್ಕೃತಿಕ ಕಾರ್ಯಕ್ರಮಗಳು ಮತ್ತು ಆಚರಣೆಗಳ ನೇರ ಪ್ರಸಾರ',
