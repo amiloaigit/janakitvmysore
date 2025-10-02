@@ -1,7 +1,7 @@
 export const translations = {
   en: {
     // Header
-    'app.title': 'Dasara Darshan',
+    'app.title': 'Janaki TV Mysore | Dasara Darshan',
     // Hero
     'hero.title': 'Welcome to Dasara 2025',
     'hero.subtitle': 'Live Streaming of Cultural Programs and Rituals',
@@ -16,7 +16,7 @@ export const translations = {
   },
   kn: {
     // Header
-    'app.title': 'ದಸರಾ ದರ್ಶನ',
+    'app.title': 'ಜಾನಕಿ ಟಿವಿ ಮೈಸೂರು | ದಸರಾ ದರ್ಶನ',
     // Hero
     'hero.title': 'ದಸರಾ ೨೦೨೫ಕ್ಕೆ ಸುಸ್ವಾಗತ',
     'hero.subtitle': 'ಸಾಂಸ್ಕೃತಿಕ ಕಾರ್ಯಕ್ರಮಗಳು ಮತ್ತು ಆಚರಣೆಗಳ ನೇರ ಪ್ರಸಾರ',
